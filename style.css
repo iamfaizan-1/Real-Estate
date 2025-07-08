@@ -1,0 +1,103 @@
+:root{
+    --blue:#295FB7;
+}
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    height: 80px;
+}
+.listdiv ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+.buttondiv button{
+    width: 80px;
+    padding: 5px 10px;
+}
+#b1{
+    background-color: transparent;
+    color: black;
+    border: none;
+}
+#b2{
+    background-color: var(--blue);
+    color: white;
+    border: none;
+}
+.icondiv p{
+    color: var(--blue);
+    font-weight: bolder;    
+}
+.herosection1{
+    background-image: url(./assets/hero\ img.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right top;
+    background-color: var(--blue);
+    color:white;
+}
+.herocontent{
+    width: 60%;
+    padding-top: 80px;
+}
+.herocontent h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.herocard{
+    margin: 80px 0px;
+    color: black;
+    background-color: white;
+    width: 60%;
+}
+.herocard p  {
+    margin-bottom: 0px !important ;
+    color: grey;
+    font-size: small;
+}
+.icon{
+    margin-bottom: opx;
+    color: grey;
+    font-size: small;
+}
+
+
+.ourservice{
+    margin: 100px  0px 30px 0px ;
+}
+.ourservice h2{
+    color: var(--blue);
+    font-size: 40px;
+    font-weight: bold;
+}
+/* .servicecard{
+    background-color: var(--blue);
+    color: white;
+    padding-top: 30px;
+   
+} */
+
+.cardb{
+    background-color: var(--blue);
+    color: white;
+}
+
+.serviceicon{
+color: black;
+background-color: white;
+border-radius: 50%;
+font-size: 30px;
+padding: 8px 15px;
+
+}
